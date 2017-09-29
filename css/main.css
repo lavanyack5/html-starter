@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
+/* There's where you would put your Google Fonts import */
+
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 /*This is some further normalization and base styles. */
 html {
@@ -55,10 +58,6 @@ img {
     width: 100%;
     height: auto;
 }
-
-/*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
-
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
 THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
