@@ -52,7 +52,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Responsive images base, put your images in a wrapper
+/* Responsive images base, put your images in a wrapper */
 img {
     display: block;
     width: 100%;
@@ -76,6 +76,9 @@ body {
   font-family: "Source Sans Pro", Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  /* font weight normalization */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
