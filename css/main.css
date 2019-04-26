@@ -112,32 +112,3 @@ h1 {
 /* Keep going! */
 
 
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/* Use this clearfix class on the parent of floated elements to clear the float! */
-
-/* GOING TO LEAVE THIS FLOAT STUFF FOR NOW, But flexbox combined with https://autoprefixer.github.io/ is my current recommendation instead of floating. */ 
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
-}
